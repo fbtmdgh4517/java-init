@@ -13,8 +13,11 @@ public class Lotto3 {
 				
 		for(int i=0; i<rNums.length; i++) {
 			rNums[i] = random.nextInt(45) + 1;
-//			System.out.println(rNums[i]);
 		}
+		
+//		for(int i=0; i<rNums.length; i++) {
+//			System.out.println(rNums[i]);
+//		}
 		
 		System.out.print("1~45 숫자 6개 , 포함해서 입력하세요 : ");
 		String str = scan.nextLine();
