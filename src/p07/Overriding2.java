@@ -20,6 +20,7 @@ public class Overriding2 {
 	public static void work(Mother[] ms) {
 		for(int i=0; i<ms.length; i++) {
 			Mother m = ms[i];
+			m.work();
 			if(m instanceof Daughter) {
 				Daughter d = (Daughter)m;
 				d.work("개발");
